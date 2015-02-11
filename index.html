@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="tutorial">
+  <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  </head>
+  
+  <body ng-controller="TutorialCtrl as tutorial">
+	<div class="list-group-item" ng-repeat="tutorial in tutorial.tutorials">
+		<div>{{tutorial.title}}</div>
+		<div>{{tutorial.author}}</div>
+		<div><img src="{{tutorial.image}}" width="150px" height="150px"/></div>
+		<div><a href="{{tutorial.url}}">Click Me</div>
+	</div>
+  </body>
+ </html>
