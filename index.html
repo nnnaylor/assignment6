@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Assignment6 by nnnaylor</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/nnnaylor/assignment6">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Assignment6</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/nnnaylor/assignment6/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/nnnaylor/assignment6/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="angularjs" class="anchor" href="#angularjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>AngularJS</h1>
+
+<h2>
+<a id="background-on-angularjs" class="anchor" href="#background-on-angularjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Background on AngularJS</h2>
+
+<p>Angular is an open-source framework that is maintained by Google.  Angular is used to help simplify development and testing of single-page applications.  Angular works by reading the HTML code first.  This code has additional tags than normal HTML, and these tags are directives for Angular.  These directives bind input and output sections of the page using JavaScript variables.</p>
+
+<h2>
+<a id="how-to-use-angularjs-to-retrieve-and-display-data-in-a-json-array" class="anchor" href="#how-to-use-angularjs-to-retrieve-and-display-data-in-a-json-array" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Use AngularJS to Retrieve and Display Data in a JSON Array</h2>
+
+<h3>
+<a id="step-1" class="anchor" href="#step-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 1</h3>
+
+<p>The first step when using angular is to make sure that you have all of the files, such as JQuery, Bootstrap, and of course AngularJS.  After those have been downloaded and put into a folder you will need to link them in your index file.</p>
+
+<p><img src="/images/ConnectJava.jpg" alt="Connect JQuery, Bootstrap, and AngularJS"></p>
+
+<h3>
+<a id="step-2" class="anchor" href="#step-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 2</h3>
+
+<p>The next step is to create an application using AngularJS.  You will need to create an "app.js" file.  Once this file is created you will then need to write the code to create the app.</p>
+
+<p><img src="/images/CreateApp.jpg" alt="Create App in app.js"></p>
+
+<h3>
+<a id="step-3" class="anchor" href="#step-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 3</h3>
+
+<p>After that is complete you need to connect the app to the webpage using the index file.  To do this you need to go to the html tag, and add the ng-app code to connect the two.</p>
+
+<p><img src="/images/htmlApp.jpg" alt="Connect App"></p>
+
+<h3>
+<a id="step-4" class="anchor" href="#step-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 4</h3>
+
+<p>Now you are ready to set up the controller so that you can fetch the data from the JSON file.  You need to create a variable that will hold the information from the file once the data has been retrieved.  Once this step is completed all we have left is to connect the controller to the body, and then display the information!</p>
+
+<p><img src="/images/AppJs.jpg" alt="Create Controller"></p>
+
+<h3>
+<a id="step-5" class="anchor" href="#step-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 5</h3>
+
+<p>Now that you have created the controller you need to connect it to your index page.  In order to this you need to add an ng-controller to the body tag.  This allows you to reference the controller that you have created in the app.js file.</p>
+
+<p><img src="/images/ConnectApp.jpg" alt="Connect Controller"></p>
+
+<h3>
+<a id="step-6" class="anchor" href="#step-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 6</h3>
+
+<p>Once you have connected the controller to the html file the only thing left to do is display the contents of the JSON file.  In order to do this we use the ng-repeat function to cycle through all of the items in the array.</p>
+
+<p><img src="/images/ListItems.jpg" alt="Display Data"></p>
+
+<p>And now all of the information that was stored in the array is now being displayed to your webpage!</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/nnnaylor">nnnaylor</a> can be found on <a href="https://github.com/nnnaylor/assignment6">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
